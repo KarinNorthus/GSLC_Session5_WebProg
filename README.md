@@ -1,11 +1,16 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Notes :
+- Sebuah website yang menampilkan menu makanan, terdiri dari gambar, deskripsi makanan, harga dan tipe makanan (main-course, appetizer atau dessert)
+- Data makanan diambil dari database, di mana database menggunakan migration dan data di masukkan menggunakan seeder.
+- Data makanan diambil melalui table "items"
+- Pada file "web.php" routing dilakukan ketika menggunakan '/home'. Di mana akan mengirimkan parameter berupa array data makanan yang diambil dari database
+- @include digunakan pada file 'template.blade.php', di mana meng-include file 'header.blade.php' yang berisi navbar
+- @extends digunakan pada file 'home.blade.php' yang meng-extends file 'template.blade.php'
+- @yields digunakan pada file 'template.blade.php'
+- @section digunakan pada file 'home.blade.php'
+- @foreach digunakan pada file 'home.blade.php' yang digunakan untuk mengambil dan menampilkan semua data makanan dari database
+- @if digunakan pada file 'home.blade.php' yang digunakan sebagai pembeda dari 3 tipe makanan yang ada dan dibedakan berdasarkan warna
+- Menggunakan framework CSS yaitu bootstrap
 
 ## About Laravel
 
@@ -63,3 +68,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# GSLC_Session5_WebProg" 
+
+
