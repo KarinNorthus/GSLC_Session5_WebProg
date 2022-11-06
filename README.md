@@ -1,4 +1,4 @@
-
+## Nama - NIM : Karin Northus - 2440062086
 ## Notes :
 - Sebuah website yang menampilkan menu makanan, terdiri dari gambar, deskripsi makanan, harga dan tipe makanan (main-course, appetizer atau dessert)
 - Data makanan diambil dari database, di mana database menggunakan migration dan data di masukkan menggunakan seeder.
