@@ -6,6 +6,7 @@
 
 <div class="container-fluid">
     <div class="container">
+        <h5 class="mt-3">Karin Northus - 2440062086</h5>
         <h1 class="text-center">Welcome to Foodie !</h1>
         <h2 class="text-center">Our Food Menu</h2>
         <div class="row">
